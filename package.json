@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-vl",
+  "version": "0.0.1",
+  "description": "AirBnB based eslint config",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run test",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrwest808/eslint-config-vl.git"
+  },
+  "keywords": [
+    "eslint",
+    "airbnb",
+    "semicolon"
+  ],
+  "author": "Johan West <hello@johanwest.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrwest808/eslint-config-vl/issues"
+  },
+  "homepage": "https://github.com/mrwest808/eslint-config-vl#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "eslint": "^1.10.3",
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-plugin-react": "^3.14.0"
+  }
+}
