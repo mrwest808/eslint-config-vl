@@ -34,6 +34,10 @@ describe('Lint samples', () => {
     const text = [
       'const add = (a, b) => a + b',
       'add(1, 2)',
+      'const obj = {',
+      '  a: () => 2',
+      '}',
+      'obj.a()'
     ].join('\n').concat('\n'); // needs to end with a newline
 
     const result = linter.executeOnText(text);
